@@ -9,6 +9,9 @@ require 'src/data.php';
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jérémy Lobry-Duval">
+    <meta name="title" content="l'amour entre vous">
+    <meta name="description" content="Site pour tester son amour avec un(e) quelconque partenire. Basé sur le nom et le prénom ">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/asset/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
@@ -61,8 +64,5 @@ require 'src/data.php';
             <?php } ?>
         </div>
     </div>
-
 </body>
-
-
 </html>
