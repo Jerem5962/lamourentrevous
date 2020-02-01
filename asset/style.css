@@ -238,6 +238,7 @@
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 20px;
     }
 
     .pourcentage {
@@ -297,7 +298,6 @@
         width: 80%;
         text-align: center;
         margin: 30px auto;
-        height: 100%;
     }
 
     .Elle {
