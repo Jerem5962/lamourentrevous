@@ -267,7 +267,7 @@
 
     body {
         background: url("img/chalet.jpg") no-repeat;
-        background-size: cover;
+        background-attachment: fixed;
     }
 
     .container {
