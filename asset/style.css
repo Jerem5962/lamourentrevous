@@ -14,7 +14,6 @@
     body {
         background: url("img/chalet.jpg") no-repeat;
         background-size: cover;
-        height: 100vh;
         display: flex;
         flex-direction: column;
     }
@@ -147,8 +146,7 @@
         background-color: blanchedalmond;
         width: 250px;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 5px auto;
         border-radius: 10px;
     }
 
