@@ -14,7 +14,9 @@
     body {
         background: url("img/chalet.jpg") no-repeat;
         background-size: cover;
-        margin-top: 20px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
     .text_visiteur {
@@ -31,9 +33,7 @@
         width: 75%;
         background-color: lightcyan;
         border-radius: 35px;
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: auto;
+        margin: 4vh auto;
         opacity: 85%;
         padding-bottom: 25px;
     }
@@ -52,7 +52,7 @@
     }
 
     .contain {
-        width: 80%;
+        width: 70%;
         text-align: center;
         margin: 30px auto;
     }
@@ -140,15 +140,14 @@
     body {
         background: url("img/chalet.jpg");
         background-size: cover;
+        height: 98vh;
     }
 
     .container {
-        height: 100vh;
+        height: 90vh;
         background-color: lightcyan;
         border-radius: 35px;
-        margin-top: 20px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-top: 15%;
         opacity: 85%;
     }
 
