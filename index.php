@@ -15,7 +15,7 @@ require 'src/data.php';
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/asset/style.css">
     <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link type="images/x-icon" href="/favicon.png" style="height: 20px; width: 20px"/>
+    <link type="images/x-icon" href="/asset/img/petit_coeur.png" style="height: 20px; width: 20px" />
     <title>L'amour entre vous</title>
 </head>
 <body>
