@@ -59,7 +59,7 @@ require 'src/data.php';
             <?php if (isset($chaineInfinie)) {?>
             <h3><?= $chaineInfinie ?> </h3>
             <?php } else { ?>
-            <h3>Votre pourcentage d'amour: </h3>
+            <h3>Amour entre vous: </h3>
             <p class="pourcentage"><?php if (isset($chaine)){echo $chaine;}else {echo "0";} ?> %</p>
             <?php } ?>
         </div>
