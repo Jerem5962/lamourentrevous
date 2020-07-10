@@ -14,7 +14,8 @@ require 'src/data.php';
     <meta name="description" content="Site pour tester son amour avec un(e) quelconque partenire. Basé sur le nom et le prénom ">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/asset/style.css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/asset/img/petit_coeur.png"/>
+    <link type="images/x-icon" href="/favicon.png" style="height: 20px; width: 20px" />
     <title>L'amour entre vous</title>
 </head>
 <body>
