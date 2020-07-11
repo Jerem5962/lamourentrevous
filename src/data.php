@@ -84,7 +84,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $handle = fopen($fichier, "r");
         $content = stream_get_contents($handle);
         fclose($handle);
-        var_dump($content);
         $handle = fopen($fichier, "w");
         $content = intval($content) + 1;
         fwrite($handle, $content);
