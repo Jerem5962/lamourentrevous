@@ -81,11 +81,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     //--------- CALCUL DU NOMBRE DE VISITEURS ---------------------
 
         $fichier = "src/log.php";
-        $handle = fopen($fichier, "w+");
+        $handle = fopen($fichier, "r");
         $content = stream_get_contents($handle);
+        fclose($handle);
+        var_dump($content);
+        $handle = fopen($fichier, "w");
         $content = intval($content) + 1;
         fwrite($handle, $content);
-        fclose($handle);
         fclose($handle);
     }
 }
